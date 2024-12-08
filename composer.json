@@ -1,0 +1,10 @@
+{
+    "require": {
+        "niyko/rocket": "dev-main"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php vendor/niyko/rocket/src/Console/Console.php --ansi create"
+        ]
+    }
+}
